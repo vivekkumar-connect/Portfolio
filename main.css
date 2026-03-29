@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+h2{
+    color:rgb(92, 225, 230);;
+}
+.header{
+    height: 300px;
+    /* background-color: rgb(92, 225, 230); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to bottom,rgba(92, 225, 230), 65%, rgba(36, 132, 198,1));
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.name{
+    color: white;
+    font-family: 'Caveat', cursive;
+    font-size: 5rem;
+}
+.webdev{
+    font-weight: bold;
+    text-decoration: underline;
+}
+.profile{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid antiquewhite;
+}
+.hello{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: 'Borel', cursive;
+    color:rgb(92, 225, 230);
+}
+.resume{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.footer{
+    height: 100px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 255, 255);
+    background: linear-gradient(to bottom right,rgba(92, 225, 230), rgba(36, 132, 198));
+}
+a {
+    text-decoration: none;
+    padding: 0px 10px;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+}
