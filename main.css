@@ -248,6 +248,7 @@ body {
     text-align: center;
   }
   .experience-container{
+    width: 80%;
     gap: 30px;
   }
   .experience-card{
@@ -260,7 +261,7 @@ body {
   .experience-card-logo-box, .experience-card-timeline, .experience-card-details
   .reverse .experience-card-logo-box, .reverse .experience-card-timeline,.reverse .experience-card-details{
     justify-content: flex-start;
-    padding: 0 0 0 10%;
+    padding: 0 0 0 10%; 
     text-align: left;
   }
   .experience-card-image{
