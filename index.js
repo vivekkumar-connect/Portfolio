@@ -16,6 +16,24 @@ function updateTimelineLine() {
   experienceContainerElement.style.setProperty("--first-timeline-center", firstTimelineCenterPosition + "px");
   experienceContainerElement.style.setProperty("--timeline-line-height", timelineHeight + "px");
 }
+const accordionList = document.querySelectorAll(".accordion");
+for (let i = 0; i < accordionList.length; i++){
+    let accordionCard = accordionList[i];
+    let accordionButton = accordionCard.querySelector(".accordion-button");
+    let accordionDetails = accordionCard.querySelector(".accordion-details")
+    let accordionDetailHeight = accordionDetails.scrollHeight;
+    accordionButton.addEventListener("click",function(){
+        if (accordionButton.classList.contains("rotate-down")){
+            accordionDetails.style.maxHeight = accordionDetailHeight + "px";
+            accordionButton.classList.replace("rotate-down","rotate-up");
+            accordionDetails.classList.replace("accordion-details-hide","accordion-details-show");
+        }else{
+            accordionButton.classList.replace("rotate-up","rotate-down");
+            accordionDetails.style.maxHeight = 0 + "px";
+            accordionDetails.classList.replace("accordion-details-show","accordion-details-hide");
+        }   
+    })
+}
 
 // Run on page load
 updateTimelineLine();
