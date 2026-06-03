@@ -15,7 +15,6 @@ function updateTimelineLine() {
   //Getting mid postion of timeline element wrt screen
   experienceContainerElement.style.setProperty("--first-timeline-center", firstTimelineCenterPosition + "px");
   experienceContainerElement.style.setProperty("--timeline-line-height", timelineHeight + "px");
-  console.log("Runign")
 }
 
 // Run on page load
