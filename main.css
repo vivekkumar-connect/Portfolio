@@ -105,14 +105,15 @@ section{
     align-items:center;
     padding: 0.5rem 1rem ;
     color: white;
+    user-select: none;
+    font-size: 1.3ren;
+    font-weight: 600;
 }
-
 .accordion-button{
   display: flex;
   justify-content: center;
   align-items: center;
   width: 10%;
-  user-select: none;
 }
 .accordion-details{
     background-color: rgb(212, 254, 255);
@@ -129,6 +130,38 @@ section{
 }
 .accordion-details-inner{
   padding: .5rem 1rem;
+}
+.language-tag{
+  display: inline-block;
+  border: 1px solid currentColor;
+  border-radius: 10px;
+  padding: 0px .5rem;
+  margin: .1rem .2rem;
+  user-select: none;
+  opacity: 80%;
+  font-weight: 600;
+  opacity: 85%;
+}
+.project-languages-section{
+  border-top: 1px solid rgba(36, 132, 198, 1);
+  margin-top: .5rem;
+  padding: .5rem 0px;
+}
+.html{
+    background:#ff8a65;
+}
+.css{
+    background:#64b5f6;
+}
+.javascript{
+    background:#ffd54f;
+    color:black;
+}
+.python{
+    background:#4fc3f7;
+}
+.csharp{
+    background:#9575cd;
 }
 .rotate-up{
     transform: rotate(180deg);

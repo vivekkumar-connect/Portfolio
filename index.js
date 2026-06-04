@@ -22,8 +22,8 @@ for (let i = 0; i < accordionList.length; i++){
     let accordionHeading = accordionCard.querySelector(".accordion-heading");
     let accordionButton = accordionCard.querySelector(".accordion-button");
     let accordionDetails = accordionCard.querySelector(".accordion-details")
-    let accordionDetailHeight = accordionDetails.scrollHeight;
     accordionHeading.addEventListener("click",function(){
+        let accordionDetailHeight = accordionDetails.scrollHeight;
         if (accordionButton.classList.contains("rotate-down")){
             accordionDetails.style.maxHeight = accordionDetailHeight+ "px";
             accordionButton.classList.replace("rotate-down","rotate-up");
