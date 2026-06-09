@@ -30,6 +30,11 @@ section{
 .underline{
   text-decoration: underline;
 }
+.link-logo{
+  height: 1rem;
+  color: rgb(16, 81, 125);
+  padding: 0px .5rem;
+}
 .header {
   background: linear-gradient(
     to bottom,
@@ -78,7 +83,7 @@ section{
     75%,
     rgba(36, 132, 198, 1)
   ); 
-  border-radius:14px;
+  border-radius:2%;
   overflow: hidden;
   height: max-content;
   border:1px solid rgba(255,255,255,0.2);
