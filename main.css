@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Open Sans",sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 body {
   display: flex;
@@ -25,7 +25,7 @@ section{
   color: rgba(36, 132, 198, 1);
 }
 .bold {
-  font-weight: bold;
+  font-weight: 700;
 }
 .underline{
   text-decoration: underline;
@@ -54,6 +54,14 @@ section{
 }
 .header h1{
   font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+.header h2{
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-top: 0.4rem;
+  letter-spacing: 0.3px;
 }
 .profile-picture {
   height: 400px;
@@ -111,8 +119,9 @@ section{
     padding: 0.5rem 1rem ;
     color: white;
     user-select: none;
-    font-size: 1.3ren;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
 }
 .accordion-button{
   display: flex;
@@ -135,6 +144,9 @@ section{
 }
 .accordion-details-inner{
   padding: .5rem 1rem;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: rgb(16, 60, 90);
 }
 .language-tag{
   display: inline-block;
@@ -143,8 +155,9 @@ section{
   padding: 0px .5rem;
   margin: .1rem .2rem;
   user-select: none;
-  opacity: 80%;
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 0.78rem;
+  letter-spacing: 0.3px;
   opacity: 85%;
 }
 .project-languages-section{
@@ -154,19 +167,23 @@ section{
 }
 .html{
     background:#ff8a65;
+    color: #5a1a00;
 }
 .css{
     background:#64b5f6;
+    color: #003070;
 }
 .javascript{
     background:#ffd54f;
-    color:black;
+    color: #3d2800;
 }
 .python{
     background:#4fc3f7;
+    color: #002d40;
 }
 .csharp{
     background:#9575cd;
+    color: #1a0040;
 }
 .rotate-up{
     transform: rotate(180deg);
@@ -200,6 +217,10 @@ section{
   flex-direction: column;
   align-items: center;
   width: 100%;
+}
+.experience-header{
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 .experience-container{
   position: relative;
@@ -245,6 +266,15 @@ section{
 }
 .experience-card-timeline{
   align-items: flex-end;
+  letter-spacing: 0.2px;
+}
+.experience-card-details{
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.experience-card-details p span{
+  font-size: 1.4rem;
+  font-weight: 700;
 }
 .experience-card-image{
   height: 200px;
@@ -291,12 +321,20 @@ section{
   width: 60%;
   padding: 20px;
 }
+.aducation-header{
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
 .education-card {
   display: flex;
   align-items: center;
   color: white;
   width: 100%;
-  font-size: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+.education-card .bold{
+  font-size: 1.1rem;
 }
 .education-image-box,
 .education-details {
@@ -332,6 +370,11 @@ section{
     rgba(36, 132, 198, 1)
   );
 }
+.footer p{
+  font-size: 0.8rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
 .link-box {
   display: flex;
   flex-direction: row;
@@ -348,7 +391,9 @@ section{
   text-decoration: none;
   padding: 0px 10px;
   color: rgb(255, 255, 255);
-  font-weight: 600;
+  font-weight: 700;
+  font-size: 0.95rem;
+  letter-spacing: 0.3px;
 }
 @media (max-width: 768px) {
   .header {
