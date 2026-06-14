@@ -32,7 +32,7 @@ section{
 }
 .link-logo{
   height: 1rem;
-  color: rgb(16, 81, 125);
+  color:white;
   padding: 0px .5rem;
 }
 .header {
@@ -83,7 +83,7 @@ section{
 }
 /* adding linearGradient is giving very good result in opening and closing lol */
 .accordion-card{
-  border: 1px solid rgba(36, 132, 198, 1);
+  border: 1px solid gray;
   border-radius: 2%;
   background: linear-gradient(
     to bottom,
@@ -94,11 +94,10 @@ section{
   border-radius:2%;
   overflow: hidden;
   height: max-content;
-  border:1px solid rgba(255,255,255,0.2);
-  transition:0.3s ease;
 }
 .accordion-image{
   position:relative;
+  border-bottom: 1px solid gray;
 }
 .accordion-image img{
     width:100%;
@@ -130,7 +129,8 @@ section{
   width: 10%;
 }
 .accordion-details{
-    background-color: rgb(212, 254, 255);
+  
+    /* background-color: rgb(212, 254, 255); */
 }
 .accordion-details-hide {
     overflow: hidden;
@@ -146,7 +146,11 @@ section{
   padding: .5rem 1rem;
   font-size: 0.9rem;
   line-height: 1.6;
-  color: rgb(16, 60, 90);
+  color:white;
+}
+.accordion-details-inner > *{
+  border-top: 1px solid rgb(212, 254, 255);
+  padding: .5rem 0px;
 }
 .language-tag{
   display: inline-block;
@@ -159,11 +163,6 @@ section{
   font-size: 0.78rem;
   letter-spacing: 0.3px;
   opacity: 85%;
-}
-.project-languages-section{
-  border-top: 1px solid rgba(36, 132, 198, 1);
-  margin-top: .5rem;
-  padding: .5rem 0px;
 }
 .html{
     background:#ff8a65;
