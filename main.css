@@ -86,7 +86,6 @@ section{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap:2rem;
 }
 .about-section h1, h3{
   text-align: center;
