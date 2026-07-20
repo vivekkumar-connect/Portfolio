@@ -81,6 +81,62 @@ section{
   text-align: center;
   color: rgb(16, 81, 125);
 }
+.about-section{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:2rem;
+}
+.about-section h1, h3{
+  text-align: center;
+}
+.objective > p {
+  text-align: justify;
+  font-size: 1.5rem;
+}
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.skill-card{
+  display: inline-flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  border-radius: 999px;
+  font-size: 14px;
+}
+.frontend-card {
+  background: #E6F1FB;
+}
+.backend-card {
+  background: #EAF3DE;
+}
+.version-control-card{
+  background: #FAEEDA;
+}
+.others-card {
+  background: #EEEDFE;
+}
+.skills-section{
+  display: flex;
+  flex-direction: column;
+}
+.skills-category{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:2rem;
+  padding: 1rem 0;
+}
+.language-logo {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 10px;
+}
 /* adding linearGradient is giving very good result in opening and closing lol */
 .accordion-card{
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
@@ -184,25 +240,6 @@ section{
 .rotate-down{
     transform: rotate(0deg);
     transition: transform 0.3s;
-}
-.skills-box {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  text-align: center;
-}
-.skill-card{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-.language-logo {
-  height: 50px;
-  width: 50px;
-  margin-left: 10px;
 }
 .experience{
   display: flex;
@@ -403,6 +440,9 @@ section{
     height: 150px;
     object-fit: cover;
     border: 2px solid antiquewhite;
+  }
+  .about-section{
+    width: 80%;
   }
   .accordion-image img{
     height: 150px;
